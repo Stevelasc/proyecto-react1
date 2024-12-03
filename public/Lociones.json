@@ -1,0 +1,447 @@
+{
+    "productos": [
+      {
+        "id": 1,
+        "name": "Velvet Rose",
+        "description": "Una loción delicada con notas de rosa y vainilla, ideal para ocasiones especiales.",
+        "price": 35.99,
+        "size": "200ml",
+        "image": "https://perfumeoriental.com/cdn/shop/files/velvetrosecopy.webp?v=1690629189&width=1445",
+        "ingredients": ["Agua", "Alcohol", "Extracto de rosa", "Esencia de vainilla"],
+        "aromatic_notes": ["Rosa", "Vainilla", "Almizcle"],
+        "category": "Floral"
+      },
+      {
+        "id": 2,
+        "name": "Ocean Breeze",
+        "description": "Fresca y revitalizante, con notas marinas y cítricas para un toque energizante.",
+        "price": 29.99,
+        "size": "150ml",
+        "image": "https://cdn.wholesale55.com/wp-content/uploads/2024/08/Ocean-Breeze-EDP-100ml-Unisex-by-Milestone-1.jpg",
+        "ingredients": ["Agua", "Alcohol", "Extracto de limón", "Esencia marina"],
+        "aromatic_notes": ["Cítricos", "Sal marina", "Ámbar"],
+        "category": "Fresco"
+      },
+      {
+        "id": 3,
+        "name": "Mystic Woods",
+        "description": "Una fragancia cálida con notas amaderadas y especiadas, perfecta para noches especiales.",
+        "price": 45.00,
+        "size": "250ml",
+        "image": "https://donnatellaperfumes.com/cdn/shop/files/I8536_1024x1024.jpg?v=1718833096",
+        "ingredients": ["Agua", "Aceite esencial de cedro", "Extracto de sándalo", "Canela"],
+        "aromatic_notes": ["Madera de cedro", "Sándalo", "Especias"],
+        "category": "Amaderado"
+      },
+      {
+        "id": 4,
+        "name": "Citrus Bloom",
+        "description": "Una explosión de frescura cítrica combinada con flores ligeras para un aroma único.",
+        "price": 25.50,
+        "size": "180ml",
+        "image": "https://doterra-prod-media1.s3.amazonaws.com/sys-master/images/hcd/ha5/30291265617950/700x509-citrus-bloom-uses.jpg",
+        "ingredients": ["Agua", "Extracto de naranja", "Esencia de jazmín", "Pomelo"],
+        "aromatic_notes": ["Naranja", "Jazmín", "Pomelo"],
+        "category": "Cítrico"
+      },
+      {
+        "id": 5,
+        "name": "Golden Sunset",
+        "description": "Una fragancia dulce y cálida con notas de caramelo y coco que te transporta al paraíso.",
+        "price": 39.99,
+        "size": "200ml",
+        "image": "https://m.media-amazon.com/images/I/71zwrneR8VL._AC_UF1000,1000_QL80_.jpg",
+        "ingredients": ["Agua", "Extracto de coco", "Caramelo", "Vainilla"],
+        "aromatic_notes": ["Coco", "Caramelo", "Vainilla"],
+        "category": "Dulce"
+      },
+      {
+        "id": 6,
+        "name": "Lavender Dream",
+        "description": "Relajante y suave, con esencia de lavanda y un toque de miel para calmar los sentidos.",
+        "price": 33.49,
+        "size": "150ml",
+        "image": "https://m.media-amazon.com/images/I/61ja2ru1HlL.jpg",
+        "ingredients": ["Agua", "Extracto de lavanda", "Esencia de miel", "Aceite esencial de eucalipto"],
+        "aromatic_notes": ["Lavanda", "Miel", "Eucalipto"],
+        "category": "Herbal"
+      },
+      {
+        "id": 7,
+        "name": "Tropical Bliss",
+        "description": "Un aroma vibrante que combina mango, piña y un toque de coco, transportándote a playas paradisíacas.",
+        "price": 28.75,
+        "size": "200ml",
+        "image": "https://www.blissperfumes.com/images/products/concentrated-oil/tropical.jpg",
+        "ingredients": ["Agua", "Extracto de mango", "Piña", "Esencia de coco"],
+        "aromatic_notes": ["Mango", "Piña", "Coco"],
+        "category": "Frutal"
+      },
+      {
+        "id": 8,
+        "name": "Amber Nights",
+        "description": "Seductora y profunda, con notas de ámbar, vainilla y un toque de pachulí.",
+        "price": 42.99,
+        "size": "250ml",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSNicluMiOEQO6I9QSzVlMj2mpbJU6RuUQJKA&s",
+        "ingredients": ["Agua", "Extracto de ámbar", "Pachulí", "Vainilla"],
+        "aromatic_notes": ["Ámbar", "Vainilla", "Pachulí"],
+        "category": "Oriental"
+      },
+      {
+        "id": 9,
+        "name": "Cucumber Mist",
+        "description": "Refrescante y ligera, con extracto de pepino y aloe vera para una sensación rejuvenecedora.",
+        "price": 24.99,
+        "size": "180ml",
+        "image": "https://victoriassecretcl.vtexassets.com/arquivos/ids/256507/667558857564_04.jpg?v=638445692017430000",
+        "ingredients": ["Agua", "Extracto de pepino", "Aloe vera", "Menta"],
+        "aromatic_notes": ["Pepino", "Aloe vera", "Menta"],
+        "category": "Fresco"
+      },
+      {
+        "id": 10,
+        "name": "Spiced Apple",
+        "description": "Una loción cálida y reconfortante con manzana especiada, canela y vainilla.",
+        "price": 31.99,
+        "size": "200ml",
+        "image": "https://www.myperfumeshop.ae/cdn/shop/files/victorias-secret-moon-spiced-apple-fragrance-mist-hair-body-mist-370165.png?v=1722206815&width=1024",
+        "ingredients": ["Agua", "Extracto de manzana", "Canela", "Vainilla"],
+        "aromatic_notes": ["Manzana", "Canela", "Vainilla"],
+        "category": "Especiado"
+      },
+      {
+        "id": 11,
+        "name": "Berry Delight",
+        "description": "Dulce y jugosa, con una mezcla de frambuesa, arándano y un toque de vainilla.",
+        "price": 27.50,
+        "size": "200ml",
+        "image": "https://theduabrand.com/cdn/shop/files/berry-delight-extreme-front-comp_bc64ed6b-66bf-4b5b-abc1-9e2881ac01b7.webp?v=1728397399",
+        "ingredients": ["Agua", "Extracto de frambuesa", "Arándano", "Vainilla"],
+        "aromatic_notes": ["Frambuesa", "Arándano", "Vainilla"],
+        "category": "Frutal"
+      },
+      {
+        "id": 12,
+        "name": "Jasmine Whisper",
+        "description": "Elegante y sofisticada, con el encanto de jazmín blanco y un toque de almizcle.",
+        "price": 39.99,
+        "size": "250ml",
+        "image": "https://cdn.shopify.com/s/files/1/0127/7840/5947/files/LaYuqawamJasmineWispfor-Women_480x480.png?v=1679510916",
+        "ingredients": ["Agua", "Extracto de jazmín", "Almizcle blanco", "Flores silvestres"],
+        "aromatic_notes": ["Jazmín", "Almizcle", "Flores silvestres"],
+        "category": "Floral"
+      },
+      {
+        "id": 13,
+        "name": "Vanilla Sky",
+        "description": "Cálida y envolvente, con vainilla cremosa y un toque de caramelo salado.",
+        "price": 36.25,
+        "size": "200ml",
+        "image": "https://www.sephora.com/productimages/product/p467146-av-10-zoom.jpg",
+        "ingredients": ["Agua", "Extracto de vainilla", "Caramelo salado", "Manteca de karité"],
+        "aromatic_notes": ["Vainilla", "Caramelo salado", "Cremoso"],
+        "category": "Dulce"
+      },
+      {
+        "id": 14,
+        "name": "Citrus Zest",
+        "description": "Energizante y vibrante, con notas de mandarina, lima y un toque de jengibre.",
+        "price": 30.00,
+        "size": "180ml",
+        "image": "https://m.media-amazon.com/images/I/51tIqSm3GJL._AC_UF1000,1000_QL80_.jpg",
+        "ingredients": ["Agua", "Mandarina", "Lima", "Jengibre"],
+        "aromatic_notes": ["Mandarina", "Lima", "Jengibre"],
+        "category": "Cítrico"
+      },
+      {
+        "id": 15,
+        "name": "Midnight Orchid",
+        "description": "Misteriosa y exótica, con notas de orquídea negra, vainilla y un toque de cuero suave.",
+        "price": 48.99,
+        "size": "250ml",
+        "image": "https://m.media-amazon.com/images/I/41LNtDCwuoL._AC_UF1000,1000_QL80_.jpg",
+        "ingredients": ["Agua", "Extracto de orquídea negra", "Vainilla", "Cuero"],
+        "aromatic_notes": ["Orquídea", "Vainilla", "Cuero suave"],
+        "category": "Oriental"
+      },
+      {
+        "id": 16,
+        "name": "Peach Blossom",
+        "description": "Delicada y afrutada, con el dulzor del durazno fresco y un toque floral suave.",
+        "price": 26.99,
+        "size": "150ml",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_920132-MLU54982489173_052023-O.webp",
+        "ingredients": ["Agua", "Extracto de durazno", "Flores blancas", "Esencia de almendra"],
+        "aromatic_notes": ["Durazno", "Flores blancas", "Almendra"],
+        "category": "Frutal"
+      },
+      {
+        "id": 17,
+        "name": "Green Tea Serenity",
+        "description": "Fresca y calmante, con extracto de té verde y un toque de limón para revitalizar los sentidos.",
+        "price": 29.50,
+        "size": "200ml",
+        "image": "https://m.media-amazon.com/images/I/61cYfeCUKpL.jpg",
+        "ingredients": ["Agua", "Extracto de té verde", "Limón", "Esencia de bambú"],
+        "aromatic_notes": ["Té verde", "Limón", "Bambú"],
+        "category": "Herbal"
+      },
+      {
+        "id": 18,
+        "name": "Vanilla Coconut Glow",
+        "description": "Una combinación tropical y cálida con vainilla cremosa y coco dulce.",
+        "price": 34.99,
+        "size": "250ml",
+        "image": "https://m.media-amazon.com/images/I/51nGScIOgJL._AC_UF350,350_QL80_.jpg",
+        "ingredients": ["Agua", "Extracto de coco", "Vainilla", "Aceite de jojoba"],
+        "aromatic_notes": ["Coco", "Vainilla", "Cremoso"],
+        "category": "Dulce"
+      },
+      {
+        "id": 19,
+        "name": "Spicy Cedar",
+        "description": "Intensa y envolvente, con cedro especiado, pimienta negra y un toque de cuero.",
+        "price": 43.75,
+        "size": "200ml",
+        "image": "https://trymoody.com/cdn/shop/files/CedarSpice_7ed50609-6955-4a66-bcf7-ae7ef12fa893.jpg?v=1704545376",
+        "ingredients": ["Agua", "Cedro", "Pimienta negra", "Cuero suave"],
+        "aromatic_notes": ["Cedro", "Pimienta", "Cuero"],
+        "category": "Amaderado"
+      },
+      {
+        "id": 20,
+        "name": "Rosewood Harmony",
+        "description": "Equilibrada y sofisticada, con la elegancia del palo de rosa y un toque de bergamota.",
+        "price": 38.99,
+        "size": "180ml",
+        "image": "https://www.tropicalmistpk.com/cdn/shop/files/Rosewood-Harmony_cc715a11-077c-4298-8d86-2cc46ff8a52d.png?v=1712760235&width=1445",
+        "ingredients": ["Agua", "Extracto de palo de rosa", "Bergamota", "Vainilla ligera"],
+        "aromatic_notes": ["Palo de rosa", "Bergamota", "Vainilla"],
+        "category": "Floral"
+      },
+      {
+        "id": 21,
+        "name": "Moonlit Violet",
+        "description": "Encantadora y nocturna, con notas de violeta, lilas y un toque de incienso.",
+        "price": 44.50,
+        "size": "200ml",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSfdNz2s6NtIqWP37FEx76o5jIWeSOXjP4dEQ&s",
+        "ingredients": ["Agua", "Extracto de violeta", "Lilac", "Incienso"],
+        "aromatic_notes": ["Violeta", "Lilas", "Incienso"],
+        "category": "Floral"
+      },
+      {
+        "id": 22,
+        "name": "Citrus Paradise",
+        "description": "Radiante y refrescante, con una mezcla de pomelo, bergamota y un toque de mandarina.",
+        "price": 28.99,
+        "size": "180ml",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsQUOiaWDhg_kXrYLZOwg_yZMwWIxrKbieFQ&s",
+        "ingredients": ["Agua", "Extracto de pomelo", "Bergamota", "Mandarina"],
+        "aromatic_notes": ["Pomelo", "Bergamota", "Mandarina"],
+        "category": "Cítrico"
+      },
+      {
+        "id": 23,
+        "name": "Sandalwood Mystique",
+        "description": "Profunda y amaderada, con sándalo, ámbar y un toque de especias exóticas.",
+        "price": 46.25,
+        "size": "250ml",
+        "image": "https://kw.korbajparfum.com/cdn/shop/files/Mask_group_6_-min_430x_88c49483-eb9a-4636-9eb4-3580d8356f3a.webp?v=1708357813&width=430",
+        "ingredients": ["Agua", "Extracto de sándalo", "Ámbar", "Especias"],
+        "aromatic_notes": ["Sándalo", "Ámbar", "Especias"],
+        "category": "Amaderado"
+      },
+      {
+        "id": 24,
+        "name": "Cherry Blossom Bliss",
+        "description": "Ligera y romántica, con la delicadeza de las flores de cerezo y un toque de miel.",
+        "price": 32.00,
+        "size": "200ml",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_656170-CBT80223014149_102024-O.webp",
+        "ingredients": ["Agua", "Extracto de flor de cerezo", "Miel", "Almendra dulce"],
+        "aromatic_notes": ["Flor de cerezo", "Miel", "Almendra dulce"],
+        "category": "Floral"
+      },
+      {
+        "id": 25,
+        "name": "Exotic Spice",
+        "description": "Audaz y seductora, con cardamomo, canela y un toque de pimienta rosa.",
+        "price": 49.99,
+        "size": "200ml",
+        "image": "https://eternalperfumeoils.com/cdn/shop/files/17.jpg?v=1725807862",
+        "ingredients": ["Agua", "Cardamomo", "Canela", "Pimienta rosa"],
+        "aromatic_notes": ["Cardamomo", "Canela", "Pimienta rosa"],
+        "category": "Especiado"
+      },
+      {
+        "id": 26,
+        "name": "Golden Amber",
+        "description": "Rica y cálida, con notas de ámbar dorado, miel y un toque de almizcle suave.",
+        "price": 40.99,
+        "size": "250ml",
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQZzocE6ZiZnvPF-ebavmzJ36-6IN7MtJZe5Q&s",
+        "ingredients": ["Agua", "Extracto de ámbar", "Miel", "Almizcle"],
+        "aromatic_notes": ["Ámbar", "Miel", "Almizcle"],
+        "category": "Oriental"
+      },
+      {
+        "id": 27,
+        "name": "Fresh Mint Splash",
+        "description": "Revitalizante y fresco, con menta silvestre, limón y un toque de eucalipto.",
+        "price": 24.99,
+        "size": "200ml",
+        "image": "https://tiendalafe.com/cdn/shop/files/Disenosintitulo-2024-07-03T152349.004.png?v=1720041839",
+        "ingredients": ["Agua", "Extracto de menta", "Limón", "Eucalipto"],
+        "aromatic_notes": ["Menta", "Limón", "Eucalipto"],
+        "category": "Herbal"
+      },
+      {
+        "id": 28,
+        "name": "Velvet Jasmine",
+        "description": "Exquisita y aterciopelada, con jazmín intenso, gardenias y un toque de almendra.",
+        "price": 36.50,
+        "size": "180ml",
+        "image": "https://nuhrhome.com/cdn/shop/products/velvetsquareroll.jpg?v=1718566120",
+        "ingredients": ["Agua", "Extracto de jazmín", "Gardenias", "Almendra dulce"],
+        "aromatic_notes": ["Jazmín", "Gardenias", "Almendra"],
+        "category": "Floral"
+      },
+      {
+        "id": 29,
+        "name": "Tropical Sunset",
+        "description": "Vibrante y exótico, con piña madura, guayaba y un toque de coco tostado.",
+        "price": 31.99,
+        "size": "200ml",
+        "image": "https://cdn.shopify.com/s/files/1/0757/4333/0629/files/Tropical_sunset_boite.jpg?v=1730723124&width=800&height=800&crop=center",
+        "ingredients": ["Agua", "Extracto de piña", "Guayaba", "Coco tostado"],
+        "aromatic_notes": ["Piña", "Guayaba", "Coco"],
+        "category": "Frutal"
+      }
+    ],
+    "Diseñador": [
+      {
+        "id": 1,
+        "name": "Wild Orchid",
+        "description": "Exótica y sofisticada, con orquídea salvaje, lirios y un toque de especias suaves.",
+        "price": 45.00,
+        "size": "250ml",
+        "image": "https://i5.walmartimages.com/seo/Beyonce-Beyonce-Heat-Wild-Orchid-Eau-De-Parfum-Spray-for-Women-3-4-oz_7207d98d-c68c-4c61-a5e5-4c43009d22ce_1.74e4adf3489230ef54d1233ffbbf324c.jpeg",
+        "ingredients": ["Agua", "Extracto de orquídea", "Lirios", "Especias suaves"],
+        "aromatic_notes": ["Orquídea", "Lirios", "Especias"],
+        "category": "Oriental"
+      },
+      {
+        "id": 2,
+        "name": "Bleu de Chanel",
+        "description": "Una fragancia atemporal y elegante con notas de madera y cítricos.",
+        "price": 125.00,
+        "size": "100ml",
+        "image": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCO/3526166_1/w=1500,h=1500,fit=pad",
+        "ingredients": ["Alcohol", "Bergamota", "Sándalo", "Cedro", "Pimienta rosa"],
+        "aromatic_notes": ["Cítricos", "Maderas", "Especias"],
+        "category": "Amaderada"
+    },
+    {
+        "id": 3,
+        "name": "Dior Sauvage",
+        "description": "Una fragancia fresca y poderosa inspirada en espacios abiertos.",
+        "price": 110.00,
+        "size": "100ml",
+        "image": "https://http2.mlstatic.com/D_Q_NP_642688-MLU75765262077_042024-O.webp",
+        "ingredients": ["Alcohol", "Bergamota de Calabria", "Ambroxan", "Pimienta de Sichuan"],
+        "aromatic_notes": ["Fresco", "Especiado", "Ambarado"],
+        "category": "Aromática"
+    },
+    {
+        "id": 4,
+        "name": "Acqua di Giò",
+        "description": "Refrescante y acuática, con notas marinas y cítricas.",
+        "price": 95.00,
+        "size": "100ml",
+        "image": "https://blind.vteximg.com.br/arquivos/ids/177629-1000-1000/75-ml.jpg?v=637892686840270000",
+        "ingredients": ["Agua", "Bergamota", "Mandarina", "Cáscara de lima", "Hojas de albahaca"],
+        "aromatic_notes": ["Cítricos", "Acuáticos", "Frescos"],
+        "category": "Fresca"
+    },
+    {
+        "id": 5,
+        "name": "Tom Ford Noir",
+        "description": "Una fragancia rica y cálida con toques de ámbar y especias.",
+        "price": 150.00,
+        "size": "100ml",
+        "image": "https://www.perfumesbogota.com.co/cdn/shop/products/Tom_Ford_Noir_-_Eau_De_Parfum_-_100ml_-_Hombre_1200x1200.jpg?v=1677719556",
+        "ingredients": ["Ámbar", "Vainilla", "Pimienta negra", "Flor de tabaco"],
+        "aromatic_notes": ["Oriental", "Ambarado", "Especiado"],
+        "category": "Oriental"
+    },
+    {
+        "id": 6,
+        "name": "Gucci Guilty",
+        "description": "Un aroma moderno y atrevido con notas florales y afrutadas.",
+        "price": 105.00,
+        "size": "90ml",
+        "image": "https://http2.mlstatic.com/D_NQ_NP_897733-MLU72945733903_112023-O.webp",
+        "ingredients": ["Lavanda", "Limón", "Azahar", "Cedro"],
+        "aromatic_notes": ["Floral", "Afrutado", "Cálido"],
+        "category": "Floral"
+    },
+    {
+      "id": 7,
+      "name": "Armani Code",
+      "description": "Una fragancia elegante con un toque de cítricos y haba tonka.",
+      "price": 120.00,
+      "size": "75ml",
+      "image": "https://veronnaperfumeria.com/cdn/shop/products/image_559d4f97-f985-4fe7-ae11-258eb0d758d3_1800x1800.jpg?v=1616479780",
+      "ingredients": ["Bergamota", "Limón", "Flor de olivo", "Haba tonka", "Cuero"],
+      "aromatic_notes": ["Cítricos", "Amaderados", "Dulces"],
+      "category": "Oriental"
+  },
+  {
+      "id": 8,
+      "name": "Yves Saint Laurent Y",
+      "description": "Un aroma fresco y masculino con notas de bergamota y salvia.",
+      "price": 115.00,
+      "size": "100ml",
+      "image": "https://www.perfumesbogota.com.co/cdn/shop/products/yves_1200x1200.jpg?v=1677789756",
+      "ingredients": ["Bergamota", "Jengibre", "Salvia", "Madera de cedro"],
+      "aromatic_notes": ["Fresco", "Amaderado", "Aromático"],
+      "category": "Aromática"
+  },
+  {
+      "id": 9,
+      "name": "Versace Eros",
+      "description": "Una fragancia poderosa y sensual con notas de menta y vainilla.",
+      "price": 100.00,
+      "size": "100ml",
+      "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQEKXPYq8iOlJ-pNaa_Y8A3m7I2YJ0vd5Klw&s",
+      "ingredients": ["Menta", "Manzana verde", "Limón", "Vainilla", "Madera de cedro"],
+      "aromatic_notes": ["Fresco", "Dulce", "Amaderado"],
+      "category": "Oriental"
+  },
+  {
+      "id": 10,
+      "name": "Hugo Boss Bottled",
+      "description": "Clásica y refinada, con notas de manzana, canela y sándalo.",
+      "price": 90.00,
+      "size": "100ml",
+      "image": "https://madeira.com.co/cdn/shop/products/737052351100_1.jpg?v=1617296226",
+      "ingredients": ["Manzana", "Canela", "Sándalo", "Cedro", "Vetiver"],
+      "aromatic_notes": ["Frutal", "Amaderado", "Dulce"],
+      "category": "Amaderada"
+  },
+  {
+      "id": 11,
+      "name": "Paco Rabanne 1 Million",
+      "description": "Un perfume opulento y cálido con canela, ámbar y cuero.",
+      "price": 110.00,
+      "size": "100ml",
+      "image": "https://imagedelivery.net/4fYuQyy-r8_rpBpcY7lH_A/falabellaCO/1398711_2/w=800,h=800,fit=pad",
+      "ingredients": ["Canela", "Mandarina", "Rosa", "Ámbar", "Cuero"],
+      "aromatic_notes": ["Dulce", "Especiado", "Ambarado"],
+      "category": "Oriental"
+  }
+]
+  }
+  
