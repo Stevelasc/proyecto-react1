@@ -6,13 +6,13 @@ function Lociones({ category }) {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    // Cargar los datos desde el archivo JSON
+ 
     fetch("/Lociones.json")
       .then((res) => res.json())
       .then((data) => {
         console.log("Datos cargados:", data);
 
-        // Actualizar el estado según la categoría
+
         if (category === "lociones") {
           setProductos(data.productos || []);
         } else if (category === "diseñador") {

@@ -2,12 +2,12 @@ import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
 const DetalleLocion = () => {
-  const { id } = useParams(); // Obtener el ID de la URL
+  const { id } = useParams(); 
   const [producto, setProducto] = useState(null);
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    // Cargar los detalles del producto según el ID
+
     fetch("/Lociones.json")
       .then((res) => res.json())
       .then((data) => {
