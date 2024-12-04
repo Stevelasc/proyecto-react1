@@ -322,7 +322,7 @@
     ],
     "Diseñador": [
       {
-        "id": 1,
+        "id": 30,
         "name": "Wild Orchid",
         "description": "Exótica y sofisticada, con orquídea salvaje, lirios y un toque de especias suaves.",
         "price": 45.00,
@@ -333,7 +333,7 @@
         "category": "Oriental"
       },
       {
-        "id": 2,
+        "id": 31,
         "name": "Bleu de Chanel",
         "description": "Una fragancia atemporal y elegante con notas de madera y cítricos.",
         "price": 125.00,
@@ -344,7 +344,7 @@
         "category": "Amaderada"
     },
     {
-        "id": 3,
+        "id": 32,
         "name": "Dior Sauvage",
         "description": "Una fragancia fresca y poderosa inspirada en espacios abiertos.",
         "price": 110.00,
@@ -355,7 +355,7 @@
         "category": "Aromática"
     },
     {
-        "id": 4,
+        "id": 33,
         "name": "Acqua di Giò",
         "description": "Refrescante y acuática, con notas marinas y cítricas.",
         "price": 95.00,
@@ -366,7 +366,7 @@
         "category": "Fresca"
     },
     {
-        "id": 5,
+        "id": 34,
         "name": "Tom Ford Noir",
         "description": "Una fragancia rica y cálida con toques de ámbar y especias.",
         "price": 150.00,
@@ -377,7 +377,7 @@
         "category": "Oriental"
     },
     {
-        "id": 6,
+        "id": 35,
         "name": "Gucci Guilty",
         "description": "Un aroma moderno y atrevido con notas florales y afrutadas.",
         "price": 105.00,
@@ -388,7 +388,7 @@
         "category": "Floral"
     },
     {
-      "id": 7,
+      "id": 36,
       "name": "Armani Code",
       "description": "Una fragancia elegante con un toque de cítricos y haba tonka.",
       "price": 120.00,
@@ -399,7 +399,7 @@
       "category": "Oriental"
   },
   {
-      "id": 8,
+      "id": 37,
       "name": "Yves Saint Laurent Y",
       "description": "Un aroma fresco y masculino con notas de bergamota y salvia.",
       "price": 115.00,
@@ -410,7 +410,7 @@
       "category": "Aromática"
   },
   {
-      "id": 9,
+      "id":  38,
       "name": "Versace Eros",
       "description": "Una fragancia poderosa y sensual con notas de menta y vainilla.",
       "price": 100.00,
@@ -421,7 +421,7 @@
       "category": "Oriental"
   },
   {
-      "id": 10,
+      "id": 39,
       "name": "Hugo Boss Bottled",
       "description": "Clásica y refinada, con notas de manzana, canela y sándalo.",
       "price": 90.00,
@@ -432,7 +432,7 @@
       "category": "Amaderada"
   },
   {
-      "id": 11,
+      "id": 40,
       "name": "Paco Rabanne 1 Million",
       "description": "Un perfume opulento y cálido con canela, ámbar y cuero.",
       "price": 110.00,
@@ -441,7 +441,106 @@
       "ingredients": ["Canela", "Mandarina", "Rosa", "Ámbar", "Cuero"],
       "aromatic_notes": ["Dulce", "Especiado", "Ambarado"],
       "category": "Oriental"
+  },
+  {
+    "id": 41,
+    "name": "Black Orchid by Tom Ford",
+    "description": "Un perfume lujoso con notas de trufa negra, chocolate y orquídea negra.",
+    "price": 140.00,
+    "size": "100ml",
+    "image": "https://envioacasa.co/cdn/shop/files/Perfume_Tom_Ford_Black_Orchid_EDP_ENVIOACASA.CO_ENVIO_A_CASA_05.jpg?v=1731223413&width=1445",
+    "ingredients": ["Trufa", "Chocolate", "Orquídea negra"],
+    "aromatic_notes": ["Floral", "Dulce", "Exótica"],
+    "category": "Oriental"
+  },
+  {
+    "id": 42,
+    "name": "Light Blue by Dolce & Gabbana",
+    "description": "Una fragancia fresca y vibrante con cítricos italianos y notas de manzana verde.",
+    "price": 90.00,
+    "size": "100ml",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-qaeNu0fkj1DT23G3K4IKkpaCb0kr-_J0xw&s",
+    "ingredients": ["Cítricos", "Manzana verde", "Cedro"],
+    "aromatic_notes": ["Cítrico", "Frutal", "Fresco"],
+    "category": "Cítrico"
+  },
+  {
+    "id": 43,
+    "name": "La Vie Est Belle by Lancôme",
+    "description": "Un perfume femenino con iris, jazmín y un toque dulce de praliné.",
+    "price": 130.00,
+    "size": "100ml",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTCRGJYlifeU5uWqxbjcGgMJk_WZB4tVHNfOQ&s",
+    "ingredients": ["Iris", "Jazmín", "Praliné"],
+    "aromatic_notes": ["Floral", "Dulce", "Cálido"],
+    "category": "Floral"
+  },
+  {
+    "id": 44,
+    "name": "Eros by Versace",
+    "description": "Notas intensas de menta, manzana verde y haba tonka para una personalidad audaz.",
+    "price": 105.00,
+    "size": "100ml",
+    "image": "https://exitocol.vtexassets.com/arquivos/ids/23602072/perfume-versace-eros-hombre-34-oz-100ml.jpg?v=638563953999170000",
+    "ingredients": ["Menta", "Manzana verde", "Haba tonka"],
+    "aromatic_notes": ["Fresco", "Dulce", "Cálido"],
+    "category": "Aromático"
+  },
+  {
+    "id": 45,
+    "name": "J'adore by Dior",
+    "description": "Fragancia elegante con rosa, jazmín y un toque de flores blancas.",
+    "price": 150.00,
+    "size": "100ml",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTZxtdH-kucrfWhkN58I5HLJilXk3umCBzmIQ&s",
+    "ingredients": ["Rosa", "Jazmín", "Flores blancas"],
+    "aromatic_notes": ["Floral", "Elegante", "Fresco"],
+    "category": "Floral"
+  },
+  {
+    "id": 46,
+    "name": "Good Girl by Carolina Herrera",
+    "description": "Un perfume audaz con jazmín, cacao y almendra.",
+    "price": 125.00,
+    "size": "100ml",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzmUXc6lajkvkTWnX12iwjRJZJo29AMD6dsg&s",
+    "ingredients": ["Jazmín", "Cacao", "Almendra"],
+    "aromatic_notes": ["Dulce", "Floral", "Oriental"],
+    "category": "Oriental"
+  },
+  {
+    "id": 47,
+    "name": "L'Homme by Yves Saint Laurent",
+    "description": "Fragancia clásica y refinada con bergamota, jengibre y vetiver.",
+    "price": 110.00,
+    "size": "100ml",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTmp2kgTfbCSa2bTIVpe4NDd2tMADaAc95Pdw&s",
+    "ingredients": ["Bergamota", "Jengibre", "Vetiver"],
+    "aromatic_notes": ["Cítrico", "Amaderado", "Especiado"],
+    "category": "Amaderado"
+  },
+  {
+    "id": 48,
+    "name": "212 VIP Men by Carolina Herrera",
+    "description": "Un aroma joven y exclusivo con vodka, caviar y lima.",
+    "price": 110.00,
+    "size": "100ml",
+    "image": "https://attoperfumes.com.co/cdn/shop/products/212Vip100mlNew.jpg?v=1707861136",
+    "ingredients": ["Vodka", "Caviar", "Lima"],
+    "aromatic_notes": ["Fresco", "Picante", "Amaderado"],
+    "category": "Aromático"
+  },
+  {
+    "id": 49,
+    "name": "Clive Christian No. 1",
+    "description": "Una obra maestra de lujo, con una combinación exquisita de sándalo, vainilla y jazmín indio.",
+    "price": 850.00,
+    "size": "50ml",
+    "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSCpsHWK-hD3BqrzfkGAcpmxFosI_QObi1ZQA&s",
+    "ingredients": ["Sándalo", "Vainilla", "Jazmín indio"],
+    "aromatic_notes": ["Amaderado", "Dulce", "Floral"],
+    "category": "Oriental"
   }
 ]
-  }
+ }
   

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 
 function Lociones({ category }) {
   const [productos, setProductos] = useState([]);
@@ -29,9 +30,9 @@ function Lociones({ category }) {
   return (
     <div className="container mt-4">
       {error && <p className="alert alert-danger">{error}</p>}
-      <div className="row g-4">
-        {productos.length > 0 ? (
-          productos.map((producto) => (
+      {productos.length > 0 ? (
+        <div className="row g-4">
+          {productos.map((producto) => (
             <div className="col-12 col-sm-6 col-md-4 col-lg-3" key={producto.id}>
               <div className="card h-100 shadow-sm">
                 <img
@@ -57,17 +58,34 @@ function Lociones({ category }) {
                   </p>
                 </div>
                 <div className="card-footer text-center bg-light">
-                  <button className="btn btn-primary btn-sm">Detalles</button>
+                  <Link
+                    to={`/detalle/${producto.id}`}
+                    className="btn btn-primary btn-sm"
+                  >
+                    Detalles
+                  </Link>
                 </div>
               </div>
             </div>
-          ))
-        ) : (
-          <p className="text-center">No hay productos disponibles.</p>
-        )}
-      </div>
+          ))}
+        </div>
+      ) : (
+        <div className="text-center py-5">
+          <h1 className="display-4 text-primary">¡Bienvenido a Perfumes Exclusivos!</h1>
+          <p className="lead text-muted">
+            Explora nuestra colección de fragancias únicas. Elige una categoría para comenzar.
+          </p>
+          <img
+            src="https://media.tenor.com/0KRT8eUbVPUAAAAM/leobylaw.gif"
+            alt="Perfumes"
+            className="img-fluid mt-4"
+            style={{ maxHeight: "300px", objectFit: "cover" }}
+          />
+        </div>
+      )}
     </div>
   );
 }
 
 export default Lociones;
+
